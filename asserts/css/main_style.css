@@ -1,74 +1,9 @@
-/** clear */
+/** clear html */
 
 html,
 body {
+    width: 100%;
     height: 100%;
-    margin: 0px;
-    padding: 0%;
-}
-
-
-/** header-nav wrapper */
-
-.header-nav-wrapper {
-    width: 100%;
-    padding-top: 3%;   
-    
-}
-
-
-/** header-nav */
-
-.header-nav {
-    display: flex;
-    width: 100%;
     margin: 0;
     padding: 0;
-}
-
-
-/** header-nav nav-item */
-
-.header-nav .nav-item {
-    margin-right:0px;
-    margin-left:7%;
-    font-weight: 500;
-    position: relative;
-    width: 100%;
-    list-style: none;
-    color: #646464;
-}
-
-
-/** header navbar a tag */
-
-.header-nav .nav-item a {
-    text-decoration: none;
-}
-
-.header-nav .nav-item a:link {
-    text-decoration: none;
-    color: #646464;
-}
-
-.header-nav .nav-item a:visited {
-    text-decoration: none;
-    color: #646464;
-}
-
-.header-nav .nav-item a:active {
-    text-decoration: none;
-    color: #646464;
-}
-
-.header-nav .nav-item a:hover {
-    text-decoration: none;
-    color: #646464;
-}
-
-/** Header Images */
-.header-img{
-    z-index:-999;
-    height:50%;
-    width:100%;
 }
